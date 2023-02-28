@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,6 +33,7 @@ class _RootPageState extends State<RootPage> {
       appBar: AppBar(
         title: const Text('Test App'),
       ),
+      body: const HomePage(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           currentPage++;
